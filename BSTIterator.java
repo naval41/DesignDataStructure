@@ -16,7 +16,6 @@ class BSTIterator {
         // Stack for the recursion simulation
         this.stack = new Stack<TreeNode>();
         
-        // Remember that the algorithm starts with a call to the helper function
         // with the root node as the input
         this.leftMostNode(root);
     }
